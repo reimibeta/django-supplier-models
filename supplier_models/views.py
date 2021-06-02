@@ -4,8 +4,8 @@ from django.shortcuts import render
 from rest_framework import viewsets
 from rest_framework_utils.pagination import StandardResultsSetPagination
 
-from supplier_models.suppliers.models import Supplier
-from supplier_models.suppliers.supplier_serializers.supplier_serializers import SupplierSerializer
+from supplier_models.models import Supplier
+from supplier_models.supplier_serializers.supplier_serializers import SupplierSerializer
 
 
 class SupplierViewSet(viewsets.ModelViewSet):

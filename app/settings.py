@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     # django rest-framework
     'rest_framework',
     # app
-    'supplier_models.suppliers.apps.SupplierConfig',
+    'supplier_models.apps.SupplierConfig',
     # Filter
     'django_admin_listfilter_dropdown',
 ]

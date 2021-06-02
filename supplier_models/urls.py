@@ -2,7 +2,7 @@ from django.conf.urls import url
 from django.urls import path, include
 from rest_framework import routers
 
-from supplier_models.suppliers import views
+from supplier_models import views
 
 router = routers.DefaultRouter()
 """ supplier api """

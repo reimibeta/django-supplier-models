@@ -2,7 +2,7 @@ from django.contrib import admin
 from django_admin_listfilter_dropdown.filters import DropdownFilter
 from html_render_utils.html_render import HtmlRender
 
-from supplier_models.suppliers.models import Supplier
+from supplier_models.models import Supplier
 
 
 class SupplierAdmin(admin.ModelAdmin):

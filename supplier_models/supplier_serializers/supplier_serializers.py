@@ -1,7 +1,7 @@
 from rest_flex_fields import FlexFieldsModelSerializer
 from rest_framework import serializers
 
-from supplier_models.suppliers.models import Supplier
+from supplier_models.models import Supplier
 
 
 class SupplierSerializer(FlexFieldsModelSerializer):
