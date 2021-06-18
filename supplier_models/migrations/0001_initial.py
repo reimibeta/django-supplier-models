@@ -3,8 +3,8 @@
 from django_datetime.datetime import datetime
 from django.db import migrations, models
 
-class Migration(migrations.Migration):
 
+class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
